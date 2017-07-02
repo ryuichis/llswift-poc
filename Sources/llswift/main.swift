@@ -19,6 +19,7 @@ import Foundation
 import Source
 import AST
 import Parser
+import CodeGen
 
 var filePaths = CommandLine.arguments
 filePaths.remove(at: 0)
@@ -37,7 +38,9 @@ for sourceFile in sourceFiles {
   guard let topLevelDecl = try? parser.parse() else {
     exit(-2)
   }
-  print(topLevelDecl.textDescription)
+
+  let codeGen = CodeGen()
+  codeGen.gen(topLevelDecl, to: "out.ll")
 }
 
 exit(0)
