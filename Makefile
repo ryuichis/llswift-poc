@@ -20,3 +20,4 @@ xcodegen:
 setup_llvm:
 	wget http://releases.llvm.org/4.0.0/clang+llvm-4.0.0-x86_64-apple-darwin.tar.xz
 	tar zxvf clang+llvm-4.0.0-x86_64-apple-darwin.tar.xz
+	swift dev/make-pkgconfig.swift

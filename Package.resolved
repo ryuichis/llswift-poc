@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LLVM",
+        "repositoryURL": "https://github.com/trill-lang/LLVMSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "0a357ecfedf39a1513d5e22cae66d77e24b452e8",
+          "version": "0.1.11"
+        }
+      },
+      {
+        "package": "cllvm",
+        "repositoryURL": "https://github.com/trill-lang/cllvm.git",
+        "state": {
+          "branch": null,
+          "revision": "e85a8ebe9f45cff9fa31b43c32662318232b392a",
+          "version": "0.0.3"
+        }
+      },
+      {
+        "package": "swift-ast",
+        "repositoryURL": "https://github.com/yanagiba/swift-ast.git",
+        "state": {
+          "branch": null,
+          "revision": "c70bffd56c2957d9ce259364dfb58a5d06f40002",
+          "version": "0.3.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
