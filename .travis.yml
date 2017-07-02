@@ -3,4 +3,4 @@ osx_image: xcode9
 install:
 - make setup_llvm
 script:
-- ./run helloworld.llswift
+- ./run.sh helloworld.llswift
